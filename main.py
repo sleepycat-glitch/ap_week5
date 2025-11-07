@@ -1,6 +1,8 @@
 # refactoring means to improve the structure of existing code without changing its external behavior 
 # this helps enchance code readability, maintainability, and efficiency
 # touch = create new file
+# make sure that the function isn't the same name as the file that it's being imported from
+# or else program doesn't understand which piece of code to call 
 
 from problem_set_1 import problem1
 from advanced_slicing import advanced_slice
